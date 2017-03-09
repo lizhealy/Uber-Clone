@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		347401DA17D43218D31F4A3E /* Pods_Uber_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2565B140D168AE19DF88683E /* Pods_Uber_Clone.framework */; };
 		AF6029FB1E5D1CE50092B1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6029FA1E5D1CE50092B1B8 /* AppDelegate.swift */; };
 		AF6029FD1E5D1CE50092B1B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6029FC1E5D1CE50092B1B8 /* ViewController.swift */; };
 		AF602A001E5D1CE50092B1B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6029FE1E5D1CE50092B1B8 /* Main.storyboard */; };
 		AF602A021E5D1CE50092B1B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF602A011E5D1CE50092B1B8 /* Assets.xcassets */; };
 		AF602A051E5D1CE50092B1B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF602A031E5D1CE50092B1B8 /* LaunchScreen.storyboard */; };
+		AF602A0D1E5D1EBF0092B1B8 /* citystreet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF602A0C1E5D1EBF0092B1B8 /* citystreet.jpg */; };
+		AF602A0F1E5D2EDE0092B1B8 /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF602A0E1E5D2EDE0092B1B8 /* DriverViewController.swift */; };
+		AF602A111E5D2EEA0092B1B8 /* RiderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF602A101E5D2EEA0092B1B8 /* RiderViewController.swift */; };
+		AF602A351E5F44F20092B1B8 /* RiderLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF602A341E5F44F20092B1B8 /* RiderLocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2565B140D168AE19DF88683E /* Pods_Uber_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uber_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6029F71E5D1CE50092B1B8 /* Uber Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uber Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6029FA1E5D1CE50092B1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF6029FC1E5D1CE50092B1B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,12 @@
 		AF602A011E5D1CE50092B1B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF602A041E5D1CE50092B1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF602A061E5D1CE50092B1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF602A0C1E5D1EBF0092B1B8 /* citystreet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = citystreet.jpg; path = "../../../Desktop/App Photos/citystreet.jpg"; sourceTree = "<group>"; };
+		AF602A0E1E5D2EDE0092B1B8 /* DriverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		AF602A101E5D2EEA0092B1B8 /* RiderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderViewController.swift; sourceTree = "<group>"; };
+		AF602A341E5F44F20092B1B8 /* RiderLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderLocationViewController.swift; sourceTree = "<group>"; };
+		CA4BC60D82446D234B017EF4 /* Pods-Uber Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uber Clone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uber Clone/Pods-Uber Clone.debug.xcconfig"; sourceTree = "<group>"; };
+		EC6985F601ABA9EDC96B4F37 /* Pods-Uber Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uber Clone.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uber Clone/Pods-Uber Clone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				347401DA17D43218D31F4A3E /* Pods_Uber_Clone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EBF0ACD4D312D583A2259F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2565B140D168AE19DF88683E /* Pods_Uber_Clone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF6029EE1E5D1CE50092B1B8 = {
 			isa = PBXGroup;
 			children = (
 				AF6029F91E5D1CE50092B1B8 /* Uber Clone */,
 				AF6029F81E5D1CE50092B1B8 /* Products */,
+				BC3224850E102EC048F79690 /* Pods */,
+				0EBF0ACD4D312D583A2259F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +81,23 @@
 				AF6029FC1E5D1CE50092B1B8 /* ViewController.swift */,
 				AF6029FE1E5D1CE50092B1B8 /* Main.storyboard */,
 				AF602A011E5D1CE50092B1B8 /* Assets.xcassets */,
+				AF602A0C1E5D1EBF0092B1B8 /* citystreet.jpg */,
 				AF602A031E5D1CE50092B1B8 /* LaunchScreen.storyboard */,
 				AF602A061E5D1CE50092B1B8 /* Info.plist */,
+				AF602A0E1E5D2EDE0092B1B8 /* DriverViewController.swift */,
+				AF602A101E5D2EEA0092B1B8 /* RiderViewController.swift */,
+				AF602A341E5F44F20092B1B8 /* RiderLocationViewController.swift */,
 			);
 			path = "Uber Clone";
+			sourceTree = "<group>";
+		};
+		BC3224850E102EC048F79690 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA4BC60D82446D234B017EF4 /* Pods-Uber Clone.debug.xcconfig */,
+				EC6985F601ABA9EDC96B4F37 /* Pods-Uber Clone.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF602A091E5D1CE50092B1B8 /* Build configuration list for PBXNativeTarget "Uber Clone" */;
 			buildPhases = (
+				6C6C90B709516D03E7172431 /* [CP] Check Pods Manifest.lock */,
 				AF6029F31E5D1CE50092B1B8 /* Sources */,
 				AF6029F41E5D1CE50092B1B8 /* Frameworks */,
 				AF6029F51E5D1CE50092B1B8 /* Resources */,
+				07AD274968D00AE76A850D49 /* [CP] Embed Pods Frameworks */,
+				715395ACAAE3C896926AFAF6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF602A051E5D1CE50092B1B8 /* LaunchScreen.storyboard in Resources */,
+				AF602A0D1E5D1EBF0092B1B8 /* citystreet.jpg in Resources */,
 				AF602A021E5D1CE50092B1B8 /* Assets.xcassets in Resources */,
 				AF602A001E5D1CE50092B1B8 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +171,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07AD274968D00AE76A850D49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uber Clone/Pods-Uber Clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6C90B709516D03E7172431 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		715395ACAAE3C896926AFAF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uber Clone/Pods-Uber Clone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF6029F31E5D1CE50092B1B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF602A0F1E5D2EDE0092B1B8 /* DriverViewController.swift in Sources */,
+				AF602A111E5D2EEA0092B1B8 /* RiderViewController.swift in Sources */,
 				AF6029FD1E5D1CE50092B1B8 /* ViewController.swift in Sources */,
 				AF6029FB1E5D1CE50092B1B8 /* AppDelegate.swift in Sources */,
+				AF602A351E5F44F20092B1B8 /* RiderLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +347,7 @@
 		};
 		AF602A0A1E5D1CE50092B1B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4BC60D82446D234B017EF4 /* Pods-Uber Clone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Uber Clone/Info.plist";
@@ -268,6 +360,7 @@
 		};
 		AF602A0B1E5D1CE50092B1B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6985F601ABA9EDC96B4F37 /* Pods-Uber Clone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Uber Clone/Info.plist";
@@ -297,6 +390,7 @@
 				AF602A0B1E5D1CE50092B1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
